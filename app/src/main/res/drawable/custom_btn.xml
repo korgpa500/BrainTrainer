@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="5dp"/>
+                    <solid android:color="@color/frameBtnColor"/>
+                    <size android:width="55dp"
+                        android:height="55dp"/>
+                    <padding android:bottom="1dp"
+                        android:right="1dp"
+                        android:left="1dp"
+                        android:top="0.7dp"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <size android:height="55dp"
+                        android:width="55dp"/>
+                    <corners android:radius="5dp"/>
+                    <gradient android:startColor="@color/MainColor"
+                        android:centerColor="@color/centerColor"
+                        android:endColor="@color/MainColor"
+                        android:useLevel="false"
+                        android:angle="45"
+                        android:centerX="1"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_hovered="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="5dp"/>
+                    <solid android:color="@color/frameBtnColor"/>
+                    <size android:width="55dp"
+                        android:height="55dp"/>
+                    <padding android:bottom="1dp"
+                        android:right="1dp"
+                        android:left="1dp"
+                        android:top="0.7dp"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <size android:height="55dp"
+                        android:width="55dp"/>
+                    <corners android:radius="5dp"/>
+                    <gradient android:startColor="@color/MainColor"
+                        android:centerColor="@color/centerColor"
+                        android:endColor="@color/MainColor"
+                        android:useLevel="false"
+                        android:angle="45"
+                        android:centerX="1"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="5dp"/>
+                    <solid android:color="@color/frameBtnColor"/>
+                    <size android:width="55dp"
+                        android:height="55dp"/>
+                    <padding android:bottom="1dp"
+                        android:right="1dp"
+                        android:left="1dp"
+                        android:top="0.7dp"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <size android:height="55dp"
+                        android:width="55dp"/>
+                    <corners android:radius="5dp"/>
+                    <gradient android:startColor="@color/MainColor"
+                        android:centerColor="@color/centerColor"
+                        android:endColor="@color/MainColor"
+                        android:useLevel="false"
+                        android:angle="45"
+                        android:centerX="0.2"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>
